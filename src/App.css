@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App {
+  overflow-x: hidden;
+  background-color: rgb(223, 224, 226);
+}
+
+#dropdownMenuLink {
+  background-color: white;
+  color: grey;
+  border: none;
+  padding: 1rem;
+}
+
+.first {
+  /* height: 50%; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.line {
+  background-color: white;
+  /* width: 70%; */
+  /* height: 100%; */
+  padding: 0;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  background-color: white;
+  /* width: 20%; */
+  /* height: 50%; */
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.circText {
+  /* width: 40%; */
+  padding: auto;
+}
+
+.c1 {
+  text-align: left;
+  color: grey;
+}
+
+.circNum {
+  color: grey;
+  font-size: 5rem;
+  position: absolute;
+  margin-left: 37%;
+  top: 7.5rem;
+}
+
+.cal {
+  background-color: white;
+  /* margin: 2rem; */
+  margin-right: -1rem;
+  padding-left: -5rem;
+}
+
+.bar {
+  margin: 2rem;
+  background-color: white;
+  padding-top: 1rem;
+}
+.Calendar {
+  margin: auto;
+  margin-right: -1rem;
+  padding: auto;
+  margin-top: 2rem;
+  
+}
+
+.CircularProgressBar {
+  width: 9rem;
+}
+
+h5 {
+  padding: 1rem;
+}
+
+.slide {
+  margin: 1rem;
+  margin-top: 2rem;
+}
+
+@media (orientation: portrait) {
+  .circNum {
+    font-size: 2.5rem;
+    position: absolute;
+    margin-left: 37%;
+    top: 5.5rem;
+  }
+}
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+} */
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
